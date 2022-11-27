@@ -31,10 +31,6 @@
 }
 
 
-.wap div:first-child{
-    height:  100px;
-}
-
 @media screen and (max-width:767px) {
     .wrap {
         display: block;
