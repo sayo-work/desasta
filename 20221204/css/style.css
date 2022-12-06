@@ -45,40 +45,63 @@ img {
 body{
     background-color: #eee;
 }
+
 h1{
     display: flex;
     justify-content: center;
     margin: 0 auto;
     padding: 50px;
     color: darkcyan;
+    font-size: 32px;
 }
 
-.service{
-    text-aline:center;
+.wrap {
     max-width:960px;
     margin: 0 auto;
     padding: 0px 10px;
     box-sizing: border-box;
 }
 
-.wrap>div {
+.wrap>div{
     display: flex;
     justify-content: space-between;
 }
 
-.service {
-    width: 30%
+
+.service{
+    width: 31%;
     background-color: #fff;
+}
+
+.group{
+    padding: 10px;
 }
 
 h2{
     color:darkcyan;
-    padding: 0px 5px;
-    margin: 10px 0px 10px;
+    font-size: 24px;
     border-left: 10px solid darkcyan;
+    padding-left: 3px;
+    margin-bottom: 10px;
 }
 
-.group{
+.group p{
     line-height:1.5;
-    font-size: 16px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+ 
+/* 課題３－２ */
+@media screen and (max-width: 400px) {
+
+    .wrap>div{
+        display: block;
+    }
+
+    .service{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
 }
